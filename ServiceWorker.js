@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-CV-0.1";
+const cacheName = "NadimAlfahel-NadimAlfahelCV-0.1";
 const contentToCache = [
-    "Build/web4d.loader.js",
-    "Build/web4d.framework.js",
-    "Build/web4d.data",
-    "Build/web4d.wasm",
+    "Build/web8d.loader.js",
+    "Build/web8d.framework.js",
+    "Build/web8d.data",
+    "Build/web8d.wasm",
     "TemplateData/style.css"
 
 ];
