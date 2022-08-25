@@ -1,9 +1,9 @@
 const cacheName = "NadimAlfahel-NadimAlfahelCV-0.1";
 const contentToCache = [
-    "Build/web8d.loader.js",
-    "Build/web8d.framework.js",
-    "Build/web8d.data",
-    "Build/web8d.wasm",
+    "Build/Nadim-Alfahel.github.io.loader.js",
+    "Build/Nadim-Alfahel.github.io.framework.js",
+    "Build/Nadim-Alfahel.github.io.data",
+    "Build/Nadim-Alfahel.github.io.wasm",
     "TemplateData/style.css"
 
 ];

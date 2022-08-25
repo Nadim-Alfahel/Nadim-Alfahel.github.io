@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
-  <body>
+  <body style="background-color:#fcfcff">
+   <Center id="load">
+ <div id="h1"><h1>Welcome to my Life </h1><h4>
+ Please Wait a little bit ... </h4></div>
+  <img width = "40%" src="LogoLoad.gif" alt="this slowpoke moves" style="  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); position:absolute;" />
+	 
+
+</Center>
     <div id="unity-container">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -57,11 +66,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/web8d.loader.js";
+      var loaderUrl = buildUrl + "/Nadim-Alfahel.github.io.loader.js";
       var config = {
-        dataUrl: buildUrl + "/web8d.data",
-        frameworkUrl: buildUrl + "/web8d.framework.js",
-        codeUrl: buildUrl + "/web8d.wasm",
+        dataUrl: buildUrl + "/Nadim-Alfahel.github.io.data",
+        frameworkUrl: buildUrl + "/Nadim-Alfahel.github.io.framework.js",
+        codeUrl: buildUrl + "/Nadim-Alfahel.github.io.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NadimAlfahel",
         productName: "NadimAlfahelCV",
@@ -98,6 +107,22 @@
         });
       };
       document.body.appendChild(script);
+	  
+	    var div = document.getElementById('unity-container');
+div.style.visibility = 'hidden';
+div.style.display = 'none';
+	 function CheckLoad(){
+		    var div3 = document.getElementById('unity-container');
+		    div3.style.visibility = 'visible';
+			div3.style.display = 'block';
+			
+			var div4 = document.getElementById('load');
+		    div4.style.visibility = 'visible';
+			div4.style.display = 'block';
+			
+			document.getElementById('h1').innerHTML = "";
+		    
+        }
     </script>
   </body>
 </html>
